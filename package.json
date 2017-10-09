@@ -5,8 +5,8 @@
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "scripts": {
-    "prepublish": "tsc",
-    "typescript": "tsc",
+    "prepublish": "tsc -p .",
+    "typescript": "tsc -p .",
     "compile": "yarn run typescript",
     "build": "tsc -p .",
     "start": "node build/sharedCode.js"

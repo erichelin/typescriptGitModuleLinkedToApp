@@ -9,13 +9,8 @@
     "start": "node build/sharedCode.js"
   },
   "dependencies": {
-    "symlink": "^2.1.0",
     "ts-node": "3.0.2",
     "tslint": "5.1.0",
     "typescript": "2.2.2"
-  },
-  "engines": {
-    "node": "7.6.0",
-    "npm": "4.0.5"
   }
 }
